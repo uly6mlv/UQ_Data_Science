@@ -248,7 +248,7 @@ class PokemonGame:
     """
     The control class
     """
-    def __init__(self, master, grid_size=4, num_pokemon=1, task=TASK_TWO):
+    def __init__(self, master, grid_size=10, num_pokemon=15, task=TASK_TWO):
         """
         Construct the game control class
         :param master: main window
